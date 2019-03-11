@@ -7,6 +7,7 @@ import Luxian from './components/Luxian'
 import Dingzhi from './components/Dingzhi'
 import Kepian from './components/Kepian'
 import Me from './components/Me'
+import Sousuo from './components/Sousuo'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
               <Route path="/luxian" component={Luxian}></Route>
               <Route path="/dingzhi" component={Dingzhi}></Route>
               <Route path="/kepian" component={Kepian}></Route>
+              <Route path="/sousuo" component={Sousuo}></Route>
               <Route path="/me" component={Me}></Route>
               <Redirect to="/home"/>
             </Switch>        

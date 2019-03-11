@@ -1,0 +1,32 @@
+.top{
+    height:44px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.top input{
+    height: 75%;
+    width:80%;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #cecece
+}
+.ant-carousel div{
+    background: #fff;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+.ant-carousel  img{
+    height: 160px;
+    margin: 0 3%;
+    width:94%; 
+    border-radius: 10px;
+  }
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
