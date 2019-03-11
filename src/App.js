@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink,Route,HashRouter as Router,Redirect,Switch} from 'react-router-dom';
 import './App.css';
+import "antd/dist/antd.css";
 import Home from './components/Home'
 import Luxian from './components/Luxian'
 import Dingzhi from './components/Dingzhi'
