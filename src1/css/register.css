@@ -1,0 +1,63 @@
+.register{
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #000;
+}
+.register .shang{
+	color: orange;
+}
+.logo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo .icon-quanqiu{
+	font-size: 40px;
+	color: orange;
+}
+.ipt{
+	height: 35px;
+	border-bottom: 1px solid #E2E2E2;
+	display: flex;
+	align-items: center;
+	margin: 0 40px;
+}
+.ipt input{
+	border: 0;
+	outline: none;
+	width: 100%;
+}
+.ipt span{
+	width: 120px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+	border-left: 1px solid #E2E2E2;
+}
+.agree{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+}
+.agree em{
+	color: orange;
+	font-style: normal;
+}
+button{
+	width: 80%;
+	border: 0;
+	background: orange;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-left: 10%;
+}

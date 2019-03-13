@@ -1,0 +1,35 @@
+.order{
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: orange;
+	position: relative;
+}
+.order .anticon-left{
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	color: #000;
+}
+nav{
+	height: 40px;
+	background: #F2F2F2;
+}
+nav ul{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+nav ul li{
+	flex: 1;
+	text-align: center;
+}
+nav ul li a{
+	color: #000;
+	padding-bottom: 7px;
+}
+
+nav ul li .active{
+	color: orange;
+	border-bottom: 2px solid orange;
+}

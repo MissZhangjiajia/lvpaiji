@@ -1,0 +1,19 @@
+.container h2{
+	height: 45px;
+	color: #000;
+	line-height: 45px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.topiclist ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.topiclist ul li{
+	width: 48%;
+	margin: 0 1%;
+}
+.topiclist ul li img{
+	width: 100%;
+	height: 150px;
+}

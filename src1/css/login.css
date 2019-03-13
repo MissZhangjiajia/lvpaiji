@@ -1,0 +1,79 @@
+.denglu{
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #000;
+}
+.denglu .regist{
+	color: orange;
+}
+.logo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo .icon-quanqiu{
+	font-size: 40px;
+	color: orange;
+}
+.ipt{
+	height: 35px;
+	border-bottom: 1px solid #E2E2E2;
+	display: flex;
+	align-items: center;
+	margin: 0 40px;
+}
+.ipt input{
+	border: 0;
+	outline: none;
+}
+.forget{
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	padding-right: 40px;
+}
+button{
+	width: 80%;
+	border: 0;
+	background: orange;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-left: 10%;
+}
+.third{
+	height: 200px;
+	margin-top: 200px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 120px;
+	border-top: 1px solid #E2E2E2;
+}
+.third span{
+	position: absolute;
+	top: -10px;
+	left: 32%;
+	font-size: 12px;
+	color: #000; 
+	background: #fff;
+	padding: 0 20px;
+}
+.third .anticon{
+	font-size: 40px;
+}
+.third .anticon-qq{
+	color: skyblue;
+}
+.third .anticon-wechat{
+	color: limegreen;
+}
